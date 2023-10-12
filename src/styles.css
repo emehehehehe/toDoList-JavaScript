@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    background: #da61ff;
+}
+
+.todo-list {
+    background: whitesmoke;
+    border: 2px solid #8b8b8b;
+    border-radius: 18px;
+    padding: 40px  32px 28px;
+    width: 300px;
+}
+
+.todo-grid {
+    display: grid;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    gap: 14px;
+}
+
+.todo-element {
+    display: flex;
+    background: rgba(139, 82, 153, 0.336);
+    padding: 10px 4px;
+    border-radius: 12px;
+}
+
+.check-todo {
+    border: 0;
+    border-radius: 30px;
+    color: white;
+    background: #da61ff;
+    margin: 2px 12px 2px 6px;
+    width: 30px;
+    height: 30px;
+}
+
+.check-todo:hover {
+    background: #a84ac5;
+}
+
+.todo-text-container {
+    display: grid;
+}
+
+#todo-topic-element, #todo-text-element {
+    background: none;
+    outline: none;
+}
+
+.todo-topic {
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid gray;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.todo-text {
+    border: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.todo-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-todo {
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    background: #da61ff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.add-todo:hover {
+    background: #a84ac5;
+}
+
+.title, .text{
+    font-family: 'Nunito', sans-serif;
+}
